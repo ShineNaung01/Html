@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    background-color: cyan;
+}
+
+/*Header Section start */
+.container {
+    display: flex;
+    background-color: chartreuse;
+    width: 90%;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    margin-right: 300px;
+    
+}
+.nav li {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.Link {
+    color: white;
+    text-decoration: none;
+}
+
+.Link:hover {
+    color: brown;
+}
+
+/*Header Section End */
+
+/*Footer Section Start*/
+footer {
+    background-color: white;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 90%;
+    height: 50px;
+    margin: auto;
+
+
+}
+.footer {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+}
+
+footer p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+/*Footer Section End*/
+
+/* Banner Section Start*/
+.main {
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
+
+.left {
+    width: 45%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 60px;
+}
+
+.right {
+    width: 45%;
+    height: 60vh;
+
+}
+
+.title {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.desc {
+    color: yellowgreen;
+    font-size: 30px;
+    width: 450px;
+    height: 200px;
+    overflow: hidden;
+    overflow: scroll;
+    margin-top: 50px;
+
+}
+/* Banner Section End */
+
+/* card start */
+
+.card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.card-container {
+    background-color: blanchedalmond;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.card-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.card-desc {
+    font-size: 20px;
+    width: 90%;
+    height: 25%;
+    overflow: hidden;
+    overflow: scroll;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.price {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: brown;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+}
+/* Card end */
