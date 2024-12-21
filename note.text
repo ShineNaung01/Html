@@ -1,0 +1,5 @@
+git init
+git remove respositories name
+git add .
+git commit -m "commit name ( What ever)"
+git push -u origin master
